@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:#1A1825;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the content */
+  .content {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+    background-color: #BE5A04;
+    padding: 10px;
+    min-height: 550px; /* Should be removed. Only for demonstration */
+    min-width: 100%;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #042028;
+    padding: 15px;
+  }
+  .username-input{
+    display: flex;
+    align-items: center;
+
+  }
+  .match-card{
+    display: flex;
+  }
+  .winpic{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+max-width: 40px;
+max-height: 40px;
+  }
